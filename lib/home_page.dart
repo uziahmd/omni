@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:flutter_switch/flutter_switch.dart';
+import 'package:omni_defender/stream_sound.dart';
 import 'navbar.dart';
 import 'stream.dart';
 
@@ -140,6 +140,22 @@ class _HomeState extends State<Home> {
                         setState(() {
                           isSwitched = value;
                         });
+                        if (isSwitched == true) {
+                          showDialog(
+                              context: context,
+                              builder: (context) {
+                                Future.delayed(Duration(seconds: 2), () {
+                                  Navigator.of(context).pop(true);
+                                });
+                                return AlertDialog(
+                                  title: Text('Danger'),
+                                );
+                              });
+                          Future.delayed(Duration(milliseconds: 2500), () {
+                            Navigator.push(context,
+                                MaterialPageRoute(builder: (_) => Stream_m()));
+                          });
+                        }
                       },
                       inactiveTrackColor: Colors.blueGrey,
                       inactiveThumbColor: Colors.grey,
