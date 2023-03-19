@@ -1,3 +1,5 @@
-# omni_defender
+# Omni Defender
 
-The Software implementation for CS350 Project.
+Developed as part of the Introduction to Software Engineering project. Omni defender is an intelligent Home Security System. An integrated smart danger detection solution for the consumers which can continue to grow and evolve over time depending on the needs and safety requirements. The high-quality intelligent system provides protections and warns against dangers that the current systems fail to do. The system includes a wide variety of sensors, a cloud, and downloadable app all aimed towards guaranteeing safety. Its danger detection ranges intruder detection using silent laser guided alarms, to an oversight of the safety of an elderly using sound or heart rate detection through a wearable device. While the system would provide a constant oversight available through the portal that will display live stream using cameras it would also detect anomalies presented to it through the various sensors and detected by the Machine learning backed algorithm, and send alerts to the user’s app. 
+The main purpose of this system is to provide assurance of safety and security in places and situations that are normally not feasible. This combines a number of functions into one (surveillance to a wearable heart monitor) so that people can live a comparatively comfortable and worry-free life. Moreover, the system would learn from your daily life to avoid giving false alarms and detect problems that the environment is more prone towards.
+
